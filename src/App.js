@@ -1,5 +1,7 @@
 import './App.css';
 import Clients from './components/Clients';
+import Cta from './components/Cta';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Highlights from './components/Highlights';
 import Navbar from './components/Navbar';
@@ -15,6 +17,8 @@ function App() {
 			<Plans/>
 			<Highlights/>
 			<Testimonials/>
+			<Cta/>
+			<Footer/>
 		</div>
 	);
 }
